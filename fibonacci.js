@@ -3,19 +3,9 @@
 3 = (3-1)+(3-2)
 4 = (4-1)+(4-2)
 */
-
-function fibonacci(n) {
-    var n1 = 0;
-    var n2 = 1;
-    if (n == 0) {
-        return n1;
-    } else if (n == 1) {
-        return n2;
-    } else {
-        return fibonacci(n - 1) + fibonacci(n - 2);
-    }
+let arr = [0,1], i = 2, n = 10;
+while (i <= n) {
+    arr[i] = arr[i - 1] + arr[i - 2]
+    i++
 }
-var nTerm = 10;
-for (var i = 0; i <= nTerm; i++) {
-    console.log(fibonacci(i));
-}
+console.log(arr);
