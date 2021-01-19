@@ -15,4 +15,5 @@ function factorila(range){
     }
     return fact;
 }
+
 console.log(factorila(5));
