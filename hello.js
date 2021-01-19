@@ -1,17 +1,17 @@
-// var Celsius=60, Fahrenheit=140;
+var Celsius=60, Fahrenheit=140;
 
-// var Celsius1 = Celsius = ((Fahrenheit-32)*5)/9
-// var Fahrenheit1 = Fahrenheit = (Celsius*9)/(Fahrenheit-(32*5))
+var Celsius1 = Celsius = ((Fahrenheit-32)*5)/9
+var Fahrenheit1 = Fahrenheit = (Celsius*9)/(Fahrenheit-(32*5))
 
-// console.log(Celsius1);
-// console.log(Fahrenheit1);
+console.log(Celsius1);
+console.log(Fahrenheit1);
 
-// var Name = "Nur"
-// var number = 120
-// var n = this.Name = number;
-// console.log(n);
+var Name = "Nur"
+var number = 120
+var n = this.Name = number;
+console.log(n);
 
-/*
+
 var namef = "Write a JavaScript program to get the website URL (loading page)" 
 var n = namef.split('R').pop()
 console.log(n);
@@ -65,21 +65,7 @@ function factorial(fact){
 }
 console.log(factorial(5));
 
-let n = 1;
-function fact(num) {
-    for (let i = 1; i <= num; i++) {
-        n = i * n;
-    }
-    return n;
-}
-console.log(fact(5));
 
-2! = 1X2
-3! = (3-1)!X3
-4! = (4-1)!X4
-5! = (5-1)!X5
-6! = (6-1)!X6
-n! = (n-1)!Xn
-*/
+
 
 
