@@ -7,9 +7,11 @@
 6! = (6-1)!X6
 n! = (n-1)!Xn
 */
-var n = 5;
-let fact = 1
-for(var i=1; i<=n; i++){
-   fact = i*fact
+function factorial(number){
+    if(number == 0){
+        return 1
+    }else{
+        return number = number * factorial(number -1)
+    }
 }
-console.log(fact);
+console.log(factorial(5));
