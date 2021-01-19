@@ -1,10 +1,8 @@
-function isPrime(n){
-    for (var i = 2; i < n; i++) {
-        if (n % i == 0) {
-            return "not a Prime Number";
-        }else{
-            return "Prime Number";
-        }
-    }
-}
-console.log(isPrime(15));
+//Swaping Number Without Temp
+
+let a=50,b=800;
+console.log("Before Swapping a:"+a+" and b:"+b);
+a=a+b;
+b=a-b;
+a=a-b;
+console.log("After Swapping a:"+a+" and b:"+b);
