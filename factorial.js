@@ -7,11 +7,12 @@
 n! = (n-1)!Xn
 */
 
-let n = 1;
-function fact(num) {
-    for (let i = 1; i <= num; i++) {
-        n = i * n;
+function factorila(range){
+    var start = 1,fact=1;
+    while(start <= range){
+        fact = fact * start;
+        start++;
     }
-    return n;
+    return fact;
 }
-console.log(fact(5));
+console.log(factorila(5));
