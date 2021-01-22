@@ -1,5 +1,9 @@
-var number1 = 230;
-var number2 = 450;
-var number3 = 303;
-
-console.log(Math.max(number1,number2,number3));
+var mark=[55,89,87,67,45,90,70,77]
+var markMax = mark[0]
+for(var count=0; count<mark.length; count++){
+    var element = mark[count];
+    if(element > markMax){
+        markMax = element;
+    }
+}
+console.log("Most Maximum Mark is ",markMax);
