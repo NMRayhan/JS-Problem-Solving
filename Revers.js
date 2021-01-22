@@ -1,10 +1,10 @@
 function stringRevers(str){
-    var revers = ""
-    for (let index = 0; index < str.length; index++) {
-        var element = str[index];
-        revers = element + revers;
-    }
-    return revers;
+    var spliteStr = str.split("")
+    console.log(spliteStr);
+    var reversArray = spliteStr.reverse();
+    console.log(reversArray);
+    var joinArray = reversArray.join();
+    console.log(joinArray);
 }
 
-console.log(stringRevers("Nur Mohammad Rayhan"));
+console.log(stringRevers("hello"));
